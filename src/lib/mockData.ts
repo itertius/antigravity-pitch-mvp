@@ -1,0 +1,68 @@
+import { Team } from '../types';
+
+export const INITIAL_MOCK_TEAMS: Team[] = [
+  {
+    id: 'mock-1',
+    name: 'QuantumLeap',
+    project_name: 'AI Agent for Sustainable Energy Grid',
+    pitcher: 'ธนกฤต วิทยานันท์',
+    status: 'pool',
+    order_num: 0,
+  },
+  {
+    id: 'mock-2',
+    name: 'NeuralCraft',
+    project_name: 'Autonomous Code Review & Refactoring Bot',
+    pitcher: 'ชลธิชา สิทธิผล',
+    status: 'pool',
+    order_num: 0,
+  },
+  {
+    id: 'mock-3',
+    name: 'GravityZero',
+    project_name: 'Decentralized Micro-Logistics Network',
+    pitcher: 'กฤษณะ วงศ์วัฒนา',
+    status: 'pool',
+    order_num: 0,
+  },
+  {
+    id: 'mock-4',
+    name: 'BioPulse',
+    project_name: 'Real-time Vital Telemetry with Wearables',
+    pitcher: 'ณภัทร ประเสริฐสุข',
+    status: 'pool',
+    order_num: 0,
+  },
+  {
+    id: 'mock-5',
+    name: 'CyberShield',
+    project_name: 'Zero-Trust Identity Verification API',
+    pitcher: 'ภานุพงศ์ เจริญกิจ',
+    status: 'pool',
+    order_num: 0,
+  },
+  {
+    id: 'mock-6',
+    name: 'FinFlow',
+    project_name: 'Automated Invoice Matching for SMEs',
+    pitcher: 'วริศรา เกษมสุข',
+    status: 'pool',
+    order_num: 0,
+  },
+  {
+    id: 'mock-7',
+    name: 'SkySight',
+    project_name: 'Drone Computer Vision for Crop Health',
+    pitcher: 'อานนท์ ฤทธิ์เดช',
+    status: 'pool',
+    order_num: 0,
+  },
+  {
+    id: 'mock-8',
+    name: 'EduVibe',
+    project_name: 'Personalized Adaptive Learning for K-12',
+    pitcher: 'มนัสวี โชติกา',
+    status: 'pool',
+    order_num: 0,
+  },
+];
